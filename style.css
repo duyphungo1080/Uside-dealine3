@@ -168,7 +168,7 @@ section li {
 }
 
 .v {
-    color: darkred;
+    color: red;
     font-size: 11px;
     text-decoration: underline;
     font-weight: bold;
@@ -250,6 +250,7 @@ form button {
     width: 290px;
     height: 92%;
     padding: 2px;
+    margin-right: -1px;
 }
 
 .right h2 {
