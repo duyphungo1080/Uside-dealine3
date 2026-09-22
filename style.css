@@ -217,6 +217,7 @@ form button {
     color: #fff;
     width: 290px;
     height: 95%;
+    padding: 3px;
 }
 
 .right h2 {
@@ -227,7 +228,7 @@ form button {
 
 .event {
     margin:10px 27px;
-    padding: 3px;
+    
 }
 
 .event h3 {
@@ -255,7 +256,7 @@ form button {
 
 /* Footer hồng ở đáy */
 footer {
-    background-color: #EA9696;
+    background-color: #ea9696;
     color: white;
     text-align: center;
     padding: 10px 0;
