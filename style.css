@@ -14,7 +14,7 @@ body {
     border-left: 2px solid #EA9696;
     border-right: 2px solid #EA9696;
     margin: 0 auto;
-    width: 1250px;
+    width: 1190px;
     background-color: #fff;
 }
 
@@ -22,7 +22,6 @@ body {
     color: #933A44;
     text-shadow: 5px 6px 1px rgb(232, 100, 116, 0.4);
     text-align: center;
-    font-size: 26px;
     padding: 10px 0;
     font-weight: bold;
 }
@@ -34,48 +33,69 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 3px 0;
+    padding-top: 5px;
 }
 
 nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 nav img.home {
-    height: 16px;
-    padding: 0 8px;
+    height: 20px;
+    padding: 0 12px;
+    margin-top: -2px;
 }
 
-nav p { 
-    border-left: 1px solid darkblue;
-    padding: 3px 35px;
+nav p {
+    border-left: 1px solid blue;
     margin: 0;
+    padding: 3px 0px;
 }
+
+.navhead {
+    padding-left: 35px;
+    padding-right: 30px;
+}
+
+.navmain {
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.navdess {
+    padding-left: 35px;
+    padding-right: 25px;
+}
+
 
 nav p:nth-of-type(3) {
-    border-right: 1px solid darkblue;
+    border-right: 1px solid blue;
 }
 
 nav div {
     display: flex;
     padding-left: 10px;
-    gap: 4px;
+    gap: 2px;
     align-items: center;
 }
 
 .search {
     margin-left: 25px;
-    width: 120px;
-    height: 15px;
+    width: 130px;
+    height: 17px;
+    margin-top: 2px;
     border: 1px solid #999;
     background-color: #fff;
 }
 
 nav button {
-    height: 15px;
+    height: 17px;
+    width: 30px;
     padding: 0 3px;
+    margin-top: 2px;
     font-size: 11px;
     background-color: #efefef;
     border: 1px solid #767676;
@@ -84,7 +104,7 @@ nav button {
 .content {
     display: flex; 
     gap: 15px; 
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .left {
@@ -103,7 +123,7 @@ nav button {
 
 .company {
     width: 180px;
-    height: 110px;
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
     margin-top: 10px;
@@ -112,18 +132,29 @@ nav button {
 
 main {
     flex: 1;
-    min-width: 0;
 }
 
 .shead {
     background-color: #EA9696;
-    width: 60%;
+    width: 52%;
+    text-align: left;
+    color: #933A44;
+    font-weight: bold;
+    font-size: 28px;
+    padding: 0 15px;
+    letter-spacing: 15px;
+    margin: 0 auto;
+}
+
+.in4 {
+    background-color: #EA9696;
+    width: 52%;
     text-align: left;
     color: #933A44;
     font-weight: bold;
     font-size: 20px;
     padding: 0 15px;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
     margin: 0 auto;
 }
 
@@ -140,12 +171,13 @@ section li {
     color: darkred;
     font-size: 11px;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 a.v {
     display: inline-block; 
     font-size: 11px;
-    margin-bottom: 7px;
+    margin-bottom: 0px;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -157,7 +189,7 @@ a.v {
 
 #infomation form {
     border: 0;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 form table {
@@ -166,17 +198,17 @@ form table {
 }
 
 form td {
-    padding: 3px;
+    padding: 5px;
 }
 
 form input[type="text"],
 form select {
     width: 95%;
-    height: 30px;
-    padding: 0 5px;
+    height: 40px;
+    padding: 0 10px;
     margin: 7px 0;
     font-size: 10px; 
-    border: 1px solid #a6a6a6;
+    border: 1px solid #373737;
     color: #555;
     border-radius: 2px;
 }
@@ -216,8 +248,8 @@ form button {
     background-color: #000; 
     color: #fff;
     width: 290px;
-    height: 95%;
-    padding: 3px;
+    height: 92%;
+    padding: 2px;
 }
 
 .right h2 {
@@ -232,19 +264,20 @@ form button {
 }
 
 .event h3 {
+    margin-top: 20px;
     margin-bottom: 1px;
 }
 
 .event img {
     width: 100%;
-    height: 120px;
+    height: 130px;
     margin-bottom: 6px;
 }
 
 .event p {
     font-size: 12px;
     color: #ddd;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 .event a.more {
@@ -253,13 +286,13 @@ form button {
     font-size: 12px;
 }
 
-/* Footer hồng ở đáy */
 footer {
     background-color: #ea9696;
     color: white;
     text-align: center;
-    padding: 10px 0;
-    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 24px;
     font-weight: bold;
     border-top: 1px solid #933A44;
     border-bottom: 1px solid #933A44;
