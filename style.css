@@ -193,10 +193,10 @@ form textarea {
     margin-top: 20px;
     margin-left: 5px;
     padding: 3px 0;
-    font-size: 10px;
+    font-size: 7px;
     border: 1px solid #a6a6a6;
     border-radius: 2px;
-    color: #555;
+    color: #000;
 }
 
 .btn-group {
