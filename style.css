@@ -191,7 +191,7 @@ form tr td:has(input[type="radio"]) {
 form textarea {
     height: 50px;
     width: 96%;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 5px;
     padding: 3px 0;
     font-size: 9px;
